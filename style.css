@@ -84,7 +84,7 @@ hr {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  margin: 4rem 0 2rem 0;
+  margin: 4rem 0 4rem 0;
 }
 
 /**
@@ -567,7 +567,6 @@ hr {
 /* CSS borrowed from bootstrap responsive embeds */
 
 .video {
-  /* background: linear-gradient(var(--main-rose), var(--main-black)); */
   background: linear-gradient(var(--rose-red), var(--main-black));
 }
 
@@ -599,8 +598,13 @@ hr {
  * CTA EMAIL
 */
 
+.cta-header {
+  margin-bottom: 2rem;
+}
+
 .cta-sub-header {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .cta-form {
@@ -609,6 +613,10 @@ hr {
   height: 20vh;
   background: var(--rose-red);
   position: relative;
+}
+
+.cta-form > input[placeholder] {
+  padding-left: 2rem;
 }
 
 .cta-email {
