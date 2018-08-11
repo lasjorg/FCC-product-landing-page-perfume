@@ -348,6 +348,9 @@ hr {
     background: #58233c;
     transition: all .2s ease-in;
   }
+  .mobile-nav .site-nav__link::before {
+    top: 15rem;
+  }
   .mobile-nav>li:not(:last-child) {
     padding-bottom: 2rem;
   }
